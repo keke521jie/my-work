@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.5rem;
+    height: .46rem;
+    .box{
+        width: 2.68rem;
+        height: .1rem;
+        border-radius: .58rem;
+        background: rgba(28, 28, 30, 1);
+    }
+}
+

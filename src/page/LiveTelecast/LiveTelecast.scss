@@ -1,0 +1,46 @@
+.circle_controls{
+    position: relative;
+    width: 3.2rem;
+    height: 3.2rem;
+    overflow: hidden;
+    margin: .8rem auto;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    &::after{
+        content: "";
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        background-color: #f3f7fa;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+.bottom_nav{
+    display: flex;
+    justify-content: space-around;
+    width: 6.86rem;
+    height: 2.01rem;
+    border-radius: .24rem;
+    background-color: #fff;
+    align-items: center;
+    margin: 0  auto;
+    margin-bottom: .58rem;
+    li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: .64rem;
+            height: .64rem;
+            margin-bottom: 16px;
+        }
+        span{
+            font-size: .28rem;
+        }   
+    }
+}

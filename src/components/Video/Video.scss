@@ -1,0 +1,29 @@
+#video_content{
+    display: flex;
+    flex-direction: column;
+    .video{
+        width: 7.5rem;
+        height: 4.12rem;
+    }
+    .controls{
+        display: flex;
+        width: 7.5rem;
+        height: 1.47rem;
+        justify-content: space-around;
+        background-color: rgba(7, 25, 38, 1);
+        align-items: center;
+        border-radius: 0 0 .24rem 0;
+        li{
+            display: flex;
+            flex-direction: column;
+            font-size: .24rem;
+            color: white;
+            align-items: center;
+            img{
+                width: .56rem;
+                height: .56rem;
+                margin-bottom: .08rem;
+            }
+        }
+    }
+}
