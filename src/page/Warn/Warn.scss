@@ -1,50 +1,5 @@
 #warn{
-    .warn-video{
-        width: 7.5rem;
-        height: 4.12rem;
-        background-color: #646763;
-        position: relative;
-        video{
-            width: 7.5rem;
-            height: 4.12rem;
-        }
-        .video-controls{
-            box-sizing: border-box;
-            width: 7.5rem;
-            height: .88rem;
-            padding: 0 .26rem 0 .32rem;
-            position: absolute;
-            display: flex;
-            bottom: 0;
-            align-items: center;
-            justify-content: space-between;
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-            img{
-                width: .48rem;
-                height: .48rem;
-            }
-            .progress-bar{
-                display: flex;
-                align-items: center;
-                width: 2.18rem;
-                height: .04rem;
-                background-color: rgba(56, 115, 252, 1);
-                position: relative;
-                .btn{
-                    position: absolute;
-                    transform: translateY(0.04rem);
-                }
-            }
-            .quk{
-                width: .96rem;
-                height: .48rem;
-            }
-            span{
-                font-size: .28rem;
-                color: rgba(255, 255, 255, 1);
-            }
-        }
-    }
+   
     .vidio-handle{
         width: 7.5rem;
         height: 1.47rem;
@@ -127,6 +82,7 @@
                                 width: .01rem;
                                 height: .2rem;
                                 background-color: rgba(255, 255, 255, 1);
+                                margin: .02rem .14rem;
                             }
                         }
                         img{

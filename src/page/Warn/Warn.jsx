@@ -3,12 +3,10 @@ import './Warn.scss'
 
 //组件引入
 import Date from '../../components/Date/Date'
+import Audio from '../../components/Audio/Audio'
+import Footer from '../../components/Footer/Footer'
 //图片引入
-import audio from './images/audio.png'
-import big from './images/big.png'
-import circle from './images/circle.png'
-import pa from './images/pa.png'
-import quk from './images/quk@2x.png'
+
 import jt from './images/jt.png'
 import xz from './images/xz.png'
 import sc from './images/sc.png'
@@ -20,20 +18,7 @@ import sx from './images/sx@2x.png'
 export default function Warn() {
     return (
         <div id="warn">
-            <div className='warn-video'>
-                <video src="" controls></video>
-                <div className="video-controls">
-                    <img src={pa} alt="" />
-                    <img src={audio} alt="" />
-                    <span className='s-time'>00:00</span>
-                    <div className='progress-bar'>
-                        <img className='btn' src={circle} alt="" />
-                    </div>
-                    <span className='e-time'>00:48</span>
-                    <img className='quk' src={quk} alt="" />
-                    <img src={big} alt="" />
-                </div>
-            </div>
+            <Audio />
             <ul className="vidio-handle">
                 <li></li>
                 <li></li>
@@ -60,7 +45,7 @@ export default function Warn() {
             </ul >
             <div className='video-container'>
                 {/* 日期组件 */}
-                <Date /> 
+                <Date />
                 <ul className="video-items">
                     <li className='video-i'>
                         <div className="left">
@@ -132,6 +117,7 @@ export default function Warn() {
                     </li>
                 </ul>
             </div>
+            <Footer />
         </div>
     )
 }
