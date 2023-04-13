@@ -17,6 +17,10 @@
             margin-right: .1067rem;
         }
     }
+    .system{
+        font-size: .28rem;
+        color: rgba(0,0,0,1);
+    }
     .active{
         &::after{
             content: "";

@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import './LiveTelecast.scss'
 // import Header from '../../components/Header/Header'
-import Title from '../../components/Title/Title'
-import Nav from '../../components/Nav/Nav'
 import Video from '../../components/Video/Video'
 import Footer from '../../components/Footer/Footer'
 // 以下是图片引入
@@ -23,8 +21,6 @@ export default function LiveTelecast() {
   return (
     <>
       {/* <Header /> */}
-      <Title />
-      <Nav />
       <Video />
       <div className="circle_controls">
         <img className='circle-btn' src={circleBtn} alt="" />

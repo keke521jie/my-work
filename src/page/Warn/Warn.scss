@@ -1,0 +1,141 @@
+#warn{
+    .warn-video{
+        width: 7.5rem;
+        height: 4.12rem;
+        background-color: #646763;
+        position: relative;
+        video{
+            width: 7.5rem;
+            height: 4.12rem;
+        }
+        .video-controls{
+            box-sizing: border-box;
+            width: 7.5rem;
+            height: .88rem;
+            padding: 0 .26rem 0 .32rem;
+            position: absolute;
+            display: flex;
+            bottom: 0;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+            img{
+                width: .48rem;
+                height: .48rem;
+            }
+            .progress-bar{
+                display: flex;
+                align-items: center;
+                width: 2.18rem;
+                height: .04rem;
+                background-color: rgba(56, 115, 252, 1);
+                position: relative;
+                .btn{
+                    position: absolute;
+                    transform: translateY(0.04rem);
+                }
+            }
+            .quk{
+                width: .96rem;
+                height: .48rem;
+            }
+            span{
+                font-size: .28rem;
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+    }
+    .vidio-handle{
+        width: 7.5rem;
+        height: 1.47rem;
+        background-color: #001926;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0 0 .24rem 0; 
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: .56rem;
+                height: .56rem;
+                margin-bottom: .14rem;
+            }
+            span{
+                font-size: .24rem;
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+    }
+    .video-container{
+        display: flex;
+        .video-items{
+            display: flex;
+            flex-direction: column;
+            .video-i{
+                width: 5.97rem;
+                height: 2.08rem;
+                display: flex;
+                margin: .16rem .24rem 0;
+                background-color: #fff;
+                padding: .24rem .32rem;
+                display: flex;
+                justify-content: space-between;
+                border-radius: 16px;
+                .left{
+                    padding-top: .08rem;
+                    .video-title{
+                        width: 1.28rem;
+                        height: .47rem;
+                        font-size: .32rem;
+                        font-weight: 700;
+                        color: rgba(0, 0, 0, 1);
+                        margin-bottom: .18rem;
+                    }
+                    .video-date{
+                        width: 2rem;
+                        height: .41rem;
+                        font-size: .28rem;
+                        color: rgba(140, 140, 140, 1);
+                    }
+                }
+                .right{
+                    width: 2.68rem;
+                    height: 1.6rem;
+                    position: relative;
+                    border-radius: .16rem;
+                    overflow: hidden;
+                    img{
+                        width: 2.68rem;
+                        height: 1.6rem;
+                    }
+                    .video-info{
+                        position:absolute;
+                        width: 2.68rem;
+                        height: .38rem;
+                        font-size: .22rem;
+                        padding: 0 .14rem;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: #fff;
+                        background: rgba(0, 0, 0, 0.5);
+                        .video-time{
+                            display: flex;
+                            .line{
+                                width: .01rem;
+                                height: .2rem;
+                                background-color: rgba(255, 255, 255, 1);
+                            }
+                        }
+                        img{
+                            width: .28rem;
+                            height: .28rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

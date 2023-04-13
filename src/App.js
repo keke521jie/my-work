@@ -1,10 +1,9 @@
 import React from 'react'
-
-import LiveTelecast from './page/LiveTelecast/LiveTelecast'
+import Layout from './Layout/Layout'
 export default function App() {
   return (
     <>
-      <LiveTelecast />
+      <Layout />
     </>
   )
 }
