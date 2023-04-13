@@ -16,10 +16,13 @@
         height: 2.09rem;
         opacity: 0;
         transition: all .5s;
+        &:active{
+            opacity: 1;
+        }
     }
-    .active{
-        opacity: 1;
-    }
+    // .active{
+    //     opacity: 1;
+    // }
     .left{
         transform: translatex(-3.2rem) translateY(0.5rem);
     }
