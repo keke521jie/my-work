@@ -1,5 +1,5 @@
 import React from 'react'
-import './PlayBack.scss'
+import style from './PlayBack.module.scss'
 
 //组件
 import Audio from '../../components/Audio/Audio'
@@ -15,9 +15,9 @@ import lb from './images/lb.png'
 
 export default function PlayBack() {
     return (
-        <div id="playback">
+        <div className={style.playback}>
             <Audio />
-            <ul className="vidio-handle">
+            <ul className={style.vidioHandle}>
                 <li></li>
                 <li></li>
                 <li>
@@ -39,117 +39,117 @@ export default function PlayBack() {
                     <span>列表</span>
                 </li>
             </ul >
-            <div className='video-container'>
+            <div className={style.videoContainer}>
                 {/* 日期组件 */}
                 <Date />
-                <ul className="video-items">
-                    <li className='item'>
-                        <div className="video-time">12:00</div>
-                        <ul className='videos'>
-                            <li className='vdo'>
+                <ul className={style.videoItems}>
+                    <li className={style.item}>
+                        <div className={style.videoTime}>12:00</div>
+                        <ul className={style.videos}>
+                            <li className={style.vdo}>
                                 <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </li>
-                            <li className='vdo'>
+                            <li className={style.vdo}>
                                 <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </li>
-                            <li className='vdo'>
+                            <li className={style.vdo}>
                                 <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </li>
-                            <li className='vdo'>
+                            <li className={style.vdo}>
                                 <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li className='item'>
-                        <div className="video-time">12:00</div>
-                        <ul className='videos'>
-                            <li className='vdo'>
-                                <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
-                                </div>
-                            </li>
-                            <li className='vdo'>
-                                <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
-                                </div>
-                            </li>
-                            <li className='vdo'>
-                                <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
-                                </div>
-                            </li>
-                            <li className='vdo'>
-                                <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </li>
                         </ul>
                     </li>
-                    <li className='item'>
-                        <div className="video-time">12:00</div>
-                        <ul className='videos'>
-                            <li className='vdo'>
+                    <li className={style.item}>
+                        <div className={style.videoTime}>12:00</div>
+                        <ul className={style.videos}>
+                            <li className={style.vdo}>
                                 <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </li>
-                            <li className='vdo'>
+                            <li className={style.vdo}>
                                 <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </li>
-                            <li className='vdo'>
+                            <li className={style.vdo}>
                                 <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </li>
-                            <li className='vdo'>
+                            <li className={style.vdo}>
                                 <img src={Tu} alt="" />
-                                <div className="times">
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li className={style.item}>
+                        <div className={style.videoTime}>12:00</div>
+                        <ul className={style.videos}>
+                            <li className={style.vdo}>
+                                <img src={Tu} alt="" />
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
+                                </div>
+                            </li>
+                            <li className={style.vdo}>
+                                <img src={Tu} alt="" />
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
+                                </div>
+                            </li>
+                            <li className={style.vdo}>
+                                <img src={Tu} alt="" />
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
+                                </div>
+                            </li>
+                            <li className={style.vdo}>
+                                <img src={Tu} alt="" />
+                                <div className={style.times}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </li>
                         </ul>

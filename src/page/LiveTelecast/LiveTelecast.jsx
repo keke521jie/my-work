@@ -1,5 +1,5 @@
 import React  from 'react'  
-import './LiveTelecast.scss'
+import style from './LiveTelecast.module.scss'
 import Video from '../../components/Video/Video'
 import Footer from '../../components/Footer/Footer'
 // 图片引入
@@ -20,19 +20,19 @@ export default function LiveTelecast() {
   return (
     <>
       <Video />
-      <div className="circle_controls">
-        <img className='circle-btn' src={circleBtn} alt="" />
+      <div className={style.circleControls}>
+        <img className={style.circleBtn} src={circleBtn} alt="" />
         {/* <img className={ showWho === 1 ? 'active left c-btn' : 'left c-btn'} onClick={()=>showBtn(1)} src={cBtn} alt="" />
         <img className={ showWho === 2 ? 'active top c-btn' : 'top c-btn'} onClick={()=>showBtn(2)} src={cBtn} alt="" />
         <img className={ showWho === 3 ? 'active right c-btn' : 'right c-btn'} onClick={()=>showBtn(3)} src={cBtn} alt="" />
         <img className={ showWho === 4 ? 'active bottom c-btn' : 'bottom c-btn'} onClick={()=>showBtn(4)} src={cBtn} alt="" /> */}
 
-        <img className='left c-btn' src={cBtn} alt="" />
-        <img className='top c-btn' src={cBtn} alt="" />
-        <img className='right c-btn' src={cBtn} alt="" />
-        <img className='bottom c-btn' src={cBtn} alt="" />
+        <img className={`${style.left} ${style.cBtn}`} src={cBtn} alt="" />
+        <img className={`${style.top} ${style.cBtn}`} src={cBtn} alt="" />
+        <img className={`${style.right} ${style.cBtn}`} src={cBtn} alt="" />
+        <img className={`${style.bottom} ${style.cBtn}`} src={cBtn} alt="" />
       </div>
-      <ul className='bottom_nav'>
+      <ul className={style.bottomNav}>
         <li>
           <img src={ly} alt="" />
           <span>点击通话</span>
@@ -54,5 +54,4 @@ export default function LiveTelecast() {
     </>
   )
 }
-
 

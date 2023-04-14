@@ -1,5 +1,5 @@
 import React from 'react'
-import './Warn.scss'
+import style from './Warn.module.scss'
 
 //组件引入
 import Date from '../../components/Date/Date'
@@ -17,9 +17,9 @@ import sx from './images/sx@2x.png'
 
 export default function Warn() {
     return (
-        <div id="warn">
+        <div className={style.warn}>
             <Audio />
-            <ul className="vidio-handle">
+            <ul className={style.vidioHandle}>
                 <li></li>
                 <li></li>
                 <li>
@@ -43,73 +43,73 @@ export default function Warn() {
                     <span>列表</span>
                 </li>
             </ul >
-            <div className='video-container'>
+            <div className={style.videoContainer}>
                 {/* 日期组件 */}
                 <Date />
-                <ul className="video-items">
-                    <li className='video-i'>
-                        <div className="left">
-                            <div className="video-title">移动侦测</div>
-                            <div className="video-date">23：23：23</div>
+                <ul className={style.videoItems}>
+                    <li className={style.videoI}>
+                        <div className={style.left}>
+                            <div className={style.videoTitle}>移动侦测</div>
+                            <div className={style.videoDate}>23：23：23</div>
                         </div>
-                        <div className="right">
-                            <div className='video-info'>
+                        <div className={style.right}>
+                            <div className={style.videoInfo}>
                                 <img src={sx} alt="" />
-                                <div className='video-time'>
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.videoTime}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </div>
                             <img src={test} alt="" />
                         </div>
                     </li>
-                    <li className='video-i'>
-                        <div className="left">
-                            <div className="video-title">移动侦测</div>
-                            <div className="video-date">23：23：23</div>
+                    <li className={style.videoI}>
+                        <div className={style.left}>
+                            <div className={style.videoTitle}>移动侦测</div>
+                            <div className={style.videoDate}>23：23：23</div>
                         </div>
-                        <div className="right">
-                            <div className='video-info'>
+                        <div className={style.right}>
+                            <div className={style.videoInfo}>
                                 <img src={sx} alt="" />
-                                <div className='video-time'>
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.videoTime}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </div>
                             <img src={test} alt="" />
                         </div>
                     </li>
-                    <li className='video-i'>
-                        <div className="left">
-                            <div className="video-title">移动侦测</div>
-                            <div className="video-date">23：23：23</div>
+                    <li className={style.videoI}>
+                        <div className={style.left}>
+                            <div className={style.videoTitle}>移动侦测</div>
+                            <div className={style.videoDate}>23：23：23</div>
                         </div>
-                        <div className="right">
-                            <div className='video-info'>
+                        <div className={style.right}>
+                            <div className={style.videoInfo}>
                                 <img src={sx} alt="" />
-                                <div className='video-time'>
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.videoTime}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </div>
                             <img src={test} alt="" />
                         </div>
                     </li>
-                    <li className='video-i'>
-                        <div className="left">
-                            <div className="video-title">移动侦测</div>
-                            <div className="video-date">23：23：23</div>
+                    <li className={style.videoI}>
+                        <div className={style.left}>
+                            <div className={style.videoTitle}>移动侦测</div>
+                            <div className={style.videoDate}>23：23：23</div>
                         </div>
-                        <div className="right">
-                            <div className='video-info'>
+                        <div className={style.right}>
+                            <div className={style.videoInfo}>
                                 <img src={sx} alt="" />
-                                <div className='video-time'>
-                                    <div className="time">12:12:12</div>
-                                    <span className='line'></span>
-                                    <div className="duration">12's</div>
+                                <div className={style.videoTime}>
+                                    <div className={style.time}>12:12:12</div>
+                                    <span className={style.line}></span>
+                                    <div className={style.duration}>12's</div>
                                 </div>
                             </div>
                             <img src={test} alt="" />
