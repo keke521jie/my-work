@@ -2,18 +2,18 @@ import React from 'react'
 import style from './Warn.module.scss'
 
 //组件引入
-import Date from '../../components/Date/Date'
-import Audio from '../../components/Audio/Audio'
-import Footer from '../../components/Footer/Footer'
+import Date from '../../components/date/Date'
+import Audio from '../../components/audio/Audio'
+import Footer from '../../components/footer/Footer'
 //图片引入
 
-import jt from './images/jt.png'
-import xz from './images/xz.png'
-import sc from './images/sc.png'
-import fx from './images/fx.png'
-import lb from './images/lb.png'
-import test from './images/test 4@2x.png'
-import sx from './images/sx@2x.png'
+import jt from '../../assets/images/warn/jt.png'
+import xz from '../../assets/images/warn/xz.png'
+import sc from '../../assets/images/warn/sc.png'
+import fx from '../../assets/images/warn/fx.png'
+import lb from '../../assets/images/warn/lb.png'
+import test from '../../assets/images/warn/test 4@2x.png'
+import sx from '../../assets/images/warn/sx@2x.png'
 
 export default function Warn() {
     return (

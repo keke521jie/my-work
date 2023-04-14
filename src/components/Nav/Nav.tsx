@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Nav.module.scss'
 import { NavLink } from "react-router-dom";
-import system from './images/system@2x.png'
+import system from '../../assets/images/nav/system@2x.png'
 export default function Nav() {
   return (
     <ul id={style.nav}>

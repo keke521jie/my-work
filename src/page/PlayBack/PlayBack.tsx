@@ -2,16 +2,16 @@ import React from 'react'
 import style from './PlayBack.module.scss'
 
 //组件
-import Audio from '../../components/Audio/Audio'
-import Date from '../../components/Date/Date'
-import Footer from '../../components/Footer/Footer'
+import Audio from '../../components/audio/Audio'
+import Date from '../../components/date/Date'
+import Footer from '../../components/footer/Footer'
 //tu
-import Tu from './images/tu@2x.png'
+import Tu from '../../assets/images/playback/tu@2x.png'
 
-import jt from './images/jt.png'
-import xz from './images/xz.png'
-import fx from './images/fx.png'
-import lb from './images/lb.png'
+import jt from '../../assets/images/playback/jt.png'
+import xz from '../../assets/images/playback/xz.png'
+import fx from '../../assets/images/playback/fx.png'
+import lb from '../../assets/images/playback/lb.png'
 
 export default function PlayBack() {
     return (

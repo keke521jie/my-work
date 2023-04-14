@@ -1,14 +1,14 @@
 import React  from 'react'  
 import style from './LiveTelecast.module.scss'
-import Video from '../../components/Video/Video'
-import Footer from '../../components/Footer/Footer'
+import Video from '../../components/video/Video'
+import Footer from '../../components/footer/Footer'
 // 图片引入
-import ly from './images/ly@2x.png'
-import sxj from './images/sxj@2x.png'
-import sxt from './images/sxt@2x.png'
-import sz from './images/sz@2x.png'
-import circleBtn from './images/circle-btn@2x.png'
-import cBtn from './images/c-btn@2x.png'
+import ly from '../../assets/images/livetelecast/ly@2x.png'
+import sxj from '../../assets/images/livetelecast/sxj@2x.png'
+import sxt from '../../assets/images/livetelecast/sxt@2x.png'
+import sz from '../../assets/images/livetelecast/sz@2x.png'
+import circleBtn from '../../assets/images/livetelecast/circle-btn@2x.png'
+import cBtn from '../../assets/images/livetelecast/c-btn@2x.png'
 
 //函数组件
 export default function LiveTelecast() {

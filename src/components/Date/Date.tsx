@@ -2,8 +2,7 @@ import React from 'react'
 import style from './Date.module.scss'
 
 //tu
-import date from './images/date@2x.png'
-
+import date from '../../assets/images/date/date@2x.png'
 
 export default function Date() {
     return (

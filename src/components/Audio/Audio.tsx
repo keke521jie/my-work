@@ -1,11 +1,11 @@
 import React from 'react'
 import style from './Audio.module.scss'
 //tu
-import audio from './images/audio.png'
-import big from './images/big.png'
-import circle from './images/circle.png'
-import pa from './images/pa.png'
-import quk from './images/quk@2x.png'
+import audio from '../../assets/images/audio/audio.png'
+import big from '../../assets/images/audio/big.png'
+import circle from '../../assets/images/audio/circle.png'
+import pa from '../../assets/images/audio/pa.png'
+import quk from '../../assets/images/audio/quk@2x.png'
 export default function Audio() {
   return (
     <div className={style.warnVideo}>

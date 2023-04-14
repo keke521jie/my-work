@@ -1,8 +1,11 @@
 import React from 'react'
 import style from './Title.module.scss'
-import back from './images/back.png'
-import Combined from './images/Combined Shape@2x.png'
-import Fill from './images/Fill 43@2x.png'
+
+// tu
+
+import back from '../../assets/images/title/back.png'
+import Combined from '../../assets/images/title/Combined Shape@2x.png'
+import Fill from '../../assets/images/title/Fill 43@2x.png'
 export default function Title() {
     return (
         <div className={style.Title}>

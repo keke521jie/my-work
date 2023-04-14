@@ -1,12 +1,13 @@
 import React from 'react'
 import style from './Video.module.scss'
-import auto from './images/auto@2x.png'
-import hd from './images/hd@2x.png'
-import big from './images/big@2x.png'
-import sxj from './images/sxj@2x.png'
-import audio from './images/audio@2x.png'
-import xj from './images/xj@2x.png'
-import sd from './images/sd@2x.png'
+// tu
+import auto from '../../assets/images/video/auto@2x.png'
+import hd from '../../assets/images/video/hd@2x.png'
+import big from '../../assets/images/video/big@2x.png'
+import sxj from '../../assets/images/video/sxj@2x.png'
+import audio from '../../assets/images/video/audio@2x.png'
+import xj from '../../assets/images/video/xj@2x.png'
+import sd from '../../assets/images/video/sd@2x.png'
 
 export default function Video() {
     console.log(style);
