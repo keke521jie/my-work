@@ -1,5 +1,5 @@
-#playback{
-    .vidio-handle{
+.playback{
+    .vidioHandle{
         width: 7.5rem;
         height: 1.47rem;
         background-color: #001926;
@@ -22,13 +22,13 @@
             }
         }
     }
-    .video-container{
+    .videoContainer{
         display: flex;
-        .video-items{
+        .videoItems{
            margin-left: .26rem;
            .item{
                 font-size: .28rem;
-                .video-time{
+                .videoTime{
                     margin-top: .3rem;
                 }
                 .videos{

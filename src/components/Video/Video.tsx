@@ -1,5 +1,5 @@
 import React from 'react'
-import './Video.scss'
+import style from './Video.module.scss'
 import auto from './images/auto@2x.png'
 import hd from './images/hd@2x.png'
 import big from './images/big@2x.png'
@@ -9,10 +9,11 @@ import xj from './images/xj@2x.png'
 import sd from './images/sd@2x.png'
 
 export default function Video() {
+    console.log(style);
   return (
-    <div id='video_content'>
-        <video className='video' src="" controls></video>
-        <ul className="controls">
+    <div className={style.videoContent}>
+        <video className={style.video} src="" controls></video>
+        <ul className={style.controls}>
             <li>
                 <img src={auto} alt="" />
                 <span>标清</span>
